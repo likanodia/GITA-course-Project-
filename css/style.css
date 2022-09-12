@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto';
+}
+.header-div{
+    background-color: rgba(109, 64, 25, 0.765);
+    padding: 25px;
+}
+.ul-block{
+    display: flex;
+}
+.header-div{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-li{
+    margin-right: 20px;
+}
+
+.theme-img{
+    background-image:url(../img/theme.jpeg) ;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
