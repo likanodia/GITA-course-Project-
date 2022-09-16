@@ -27,42 +27,83 @@ body{
     position: relative;
 }
 /* page1 section1 */
+
+.banner-info{
+    max-width: 500px;
+    width: 100%;
+    position: absolute;
+    font-size: 36px;
+    color: #ececec;
+    font-weight: 900;
+    text-align: center;
+    top: 70%;
+    left: 30%;
+}
+.banner-button{
+    margin-top: 20px;
+    background-color: #ce8f50b5;
+    border-color: rgb(234, 228, 217);
+    border-width: 2px;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
 .page1-section2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 30px;
+    background-color: #f7eadfa1;
 }
 .dress-img{
     height: 650px;
+    max-width: 650px;
 }
 .dress-text-div{
     font-size: 28px;
     text-align: end;
     padding: 30px;
+    max-width:500px ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
 }
 .dress-heading{
     font-size: 60px;
     font-weight: 800;
-    line-height: 120px;
+    /* line-height: 120px; */
+}
+.dress-line{
+    margin: 20px 0;
+    max-width: 250px;
+    width: 100%;   
 }
 .dress-text{
     font-size: 24px;
+
 }
 .dress-shop{
     line-height: 200px;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 700;
     text-decoration-line: underline;
+    cursor: pointer;
 }
 .blouses-text-div{
     font-size: 28px;
     padding: 30px;
     text-align: start;
+    max-width: 500px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
 }
 /* footer */
 .footer-bar {
-    background-color: rgba(217, 210, 203, 0.882);
+    background-color: rgba(203, 158, 113, 0.686);
 }
 .footer-div {
     width: 100%;
@@ -87,4 +128,30 @@ body{
     display: flex;
     justify-content: space-between;
     color: #000000;
+}
+
+/* 2nd page */
+.fashion{
+    max-width: 420px;
+    width: 100%;
+}
+.fashion-div{
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 50px;
+}
+.page2-section2{
+    display: flex;
+    flex-direction: row;
+    background-color: #f6e4d5d6;
+}
+.winter-img{
+    max-width: 500px;
+    width: 100%;
+}
+.portrait-img{
+    max-width: 500px;
+    width: 100%;
 }
