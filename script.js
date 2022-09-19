@@ -12,3 +12,5 @@ $(document).ready(function(){
         $("#panel-skirts").slideToggle("fast");
     });
   });
+
+  
