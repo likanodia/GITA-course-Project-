@@ -19,16 +19,21 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
     <header class="header">
+        <div class="burger-bar" id="burger-menu">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+        </div>
         <div class="header-div">
             <div class="logo-div">
                 <a class="logo-text" href="index.html">LOGO</a>
             </div>
-            <nav class="nav-block">
-                <ul class="ul-block">
+
+            <nav class="nav-block" id="nav-block">
+                <ul class="ul-block" id="ul-block">
                     <li class="nav-li"> <a class="nav-a" href="index.html">Home</a>  </li>
                     <li class="nav-li"> <a class="nav-a"  href="winter.html">Winter</a>  </li>
                     <li class="nav-li"> <a class="nav-a active" href="shop.html">Shopping</a>  </li>
@@ -70,49 +75,53 @@
     </section>
     <section class="shop-section">
         
-        <div class="shop-div">
-            <div class="shop-post">
-                <img class="post-img" src="img/blouse1.jpeg" alt="sect2-img1">
-                <div class="shop-text-div">
-                    <h4 class="shop-title">Button-Front Denim Skirt</h4>
-                    <p class="shop-price">$148.00</p>
+        <div class="shop-div swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="shop-post swiper-slide">
+                    <img class="post-img" src="img/blouse1.jpeg" alt="sect2-img1">
+                    <div class="shop-text-div">
+                        <h4 class="shop-title">Button-Front Denim Skirt</h4>
+                        <p class="shop-price">$148.00</p>
+                    </div>
                 </div>
-            </div>
-            <div class="shop-post">
-                <img class="post-img" src="img/blouse2.jpeg" alt="sect2-img2">
-                <div class="shop-text-div">
-                    <h4 class="shop-title">Kalas Henley Blouse</h4>
-                    <p class="shop-price">$88.00</p>
+                <div class="shop-post swiper-slide">
+                    <img class="post-img" src="img/blouse2.jpeg" alt="sect2-img2">
+                    <div class="shop-text-div">
+                        <h4 class="shop-title">Kalas Henley Blouse</h4>
+                        <p class="shop-price">$88.00</p>
+                    </div>
+                </div>  
+                <div class="shop-post swiper-slide">
+                    <img class="post-img" src="img/blouse3.jpeg" alt="sect2-img3">
+                    <div class="shop-text-div">
+                        <h4 class="shop-title">Topeka Floral Blouse</h4>
+                        <p class="shop-price">$158.00</p>
+                    </div>
                 </div>
-            </div>  
-            <div class="shop-post">
-                <img class="post-img" src="img/blouse3.jpeg" alt="sect2-img3">
-                <div class="shop-text-div">
-                    <h4 class="shop-title">Topeka Floral Blouse</h4>
-                    <p class="shop-price">$158.00</p>
+                <div class="shop-post swiper-slide">
+                    <img class="post-img" src="img/skirt1.jpeg" alt="sect2-img3">
+                    <div class="shop-text-div">
+                        <h4 class="shop-title">Printed Maxi Skirt</h4>
+                        <p class="shop-price">$118.00</p>
+                    </div>
                 </div>
-            </div>
-            <div class="shop-post">
-                <img class="post-img" src="img/skirt1.jpeg" alt="sect2-img3">
-                <div class="shop-text-div">
-                    <h4 class="shop-title">Printed Maxi Skirt</h4>
-                    <p class="shop-price">$118.00</p>
+                <div class="shop-post swiper-slide">
+                    <img class="post-img" src="img/skirt2.jpeg" alt="sect2-img3">
+                    <div class="shop-text-div">
+                        <h4 class="shop-title"> Pleated Floral Skirt</h4>
+                        <p class="shop-price">$188.00</p>
+                    </div>
                 </div>
-            </div>
-            <div class="shop-post">
-                <img class="post-img" src="img/skirt2.jpeg" alt="sect2-img3">
-                <div class="shop-text-div">
-                    <h4 class="shop-title"> Pleated Floral Skirt</h4>
-                    <p class="shop-price">$188.00</p>
+                <div class="shop-post swiper-slide">
+                    <img class="post-img" src="img/skirt3.jpeg" alt="sect2-img3">
+                    <div class="shop-text-div">
+                        <h4 class="shop-title">Front Mini Skirt</h4>
+                        <p class="shop-price">$148.00</p>
+                    </div>
                 </div>
-            </div>
-            <div class="shop-post">
-                <img class="post-img" src="img/skirt3.jpeg" alt="sect2-img3">
-                <div class="shop-text-div">
-                    <h4 class="shop-title">Front Mini Skirt</h4>
-                    <p class="shop-price">$148.00</p>
-                </div>
-            </div>
+         </div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
         </div>   
     </section>
 
@@ -142,6 +151,8 @@
             </div>
         </div>
     </footer>
+    <script src="swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+    <script src="swiper.js"></script>
 </body>
 </html>

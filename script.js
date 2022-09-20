@@ -13,4 +13,15 @@ $(document).ready(function(){
     });
   });
 
-  
+
+
+  let burgerMeniu = document.getElementById('burger-menu')
+  let navigationBar= document.getElementById('nav-block')
+  let menuList = document.getElementById('ul-block')
+
+  burgerMeniu.addEventListener('click', setBugerMenu);  
+
+  function setBugerMenu() {
+    navigationBar.classList.toggle('activeNavigation')
+  }
+
