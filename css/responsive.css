@@ -8,6 +8,13 @@
     .page1-section1{
         flex-direction: column;
     }
+    .shop-section-div{
+        flex-direction: column;
+    }
+    .fashion-text-heading{
+        font-size: 46px;
+    }
+
     .banner-info{
         top: 60%;
         left: 0%;
@@ -15,7 +22,7 @@
     }
     .fashion-div{
         flex-direction: column;
-        transform: scale(0.8);
+        transform: scale(0.9);
     }
     .fashion{
         margin-top: 20px;
@@ -30,13 +37,7 @@
     .portrait-img{
         object-position: right;
     }
-
 }
-
-
-
-
-
 
 @media(max-width:700px){
     .nav-block{
@@ -61,7 +62,10 @@
     .header-div{
         justify-content: flex-end;
         align-items:flex-end ;
-        background-color: aliceblue;
+        background-color: rgb(197, 186, 175);
         padding: 0;
+    }
+    .shop-div{
+        display: none;
     }
 }
